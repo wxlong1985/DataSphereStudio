@@ -44,7 +44,7 @@ export default {
     BI_API_PATH: 'dws/vg#',
   },
   component: () =>
-    import('./container.vue'),
+    import('./'),
   config: {
   },
 };
