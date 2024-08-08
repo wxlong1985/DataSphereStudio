@@ -246,6 +246,15 @@ module.exports = {
     }
   },
   devServer: {
-    disableHostCheck: true
+    disableHostCheck: true,
+    proxy: {
+      '': {
+        target: 'http://10.172.0.207:8085',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/cz': ''
+        }
+      }
+    }
   }
 }

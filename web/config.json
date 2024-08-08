@@ -78,8 +78,8 @@
     "WeEditor": "editor/index.js"
   },
   "conf": {
-    "app_name": "DataSphere Studio",
-    "app_logo": "dss/assets/images/dssLogo.png",
+    "app_name": "数据管理平台",
+    "app_logo": "dss/assets/images/ggLogo.png",
     "user_guide": "",
     "hide_view_tb_detail": true,
     "hide_view_db_detail": true,
